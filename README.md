@@ -1,9 +1,13 @@
-# setup-debian
+# Setup Debian
+
+Shell scripts to quickly setup packages and binaries for a non-root Debian user.
+
+## Usage
 
 1. Download the repository
 
 ```console
-git clone --depth=1 https://github.com/frederickme/setup-debian
+git clone --depth=1 https://github.com/fr-bl/setup-deb
 ```
 
 2. Setup packages and configs
