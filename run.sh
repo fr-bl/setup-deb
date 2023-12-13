@@ -1,4 +1,4 @@
-DIR=$(dirname "$(realpath -s $0)")
+DIR=$(dirname "$(realpath -s "${BASH_SOURCE[0]}")")
 
 "$DIR/install.sh"
 "$DIR/conf.sh"
