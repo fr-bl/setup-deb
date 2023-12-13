@@ -4,7 +4,7 @@ Shell scripts to quickly setup packages and binaries for a non-root Debian user.
 
 ## Setup
 
-## Quick setup
+### Quick setup
 
 Run the remote script to get started quickly and skip the next two steps.
 
@@ -12,7 +12,7 @@ Run the remote script to get started quickly and skip the next two steps.
 source <(curl -s https://raw.githubusercontent.com/fr-bl/setup-deb/main/get.sh)
 ```
 
-## Installation
+### Installation
 
 Download the repository.
 
@@ -20,7 +20,7 @@ Download the repository.
 git clone --depth=1 https://github.com/fr-bl/setup-deb
 ```
 
-## Initialization
+### Initialization
 
 Run the script.
 
@@ -29,7 +29,7 @@ cd ./setup-deb
 source run.sh
 ```
 
-# Usage
+## Usage
 
 Run installed packages and binaries.
 
@@ -37,9 +37,9 @@ Run installed packages and binaries.
 run code
 ```
 
-# Configuration
+## Configuration
 
-## Install Packages
+### Install Packages
 
 Place `.deb` packages in `pkgs/`. You can download them from the respective download pages, like [VSCode's](https://code.visualstudio.com/Download) or download them from apt.
 
@@ -47,14 +47,14 @@ Place `.deb` packages in `pkgs/`. You can download them from the respective down
 apt-get download <PACKAGE NAME>
 ```
 
-## Add Binaries
+### Add Binaries
 
 Add binaries to `bin/`.
 
-## Apply Configs
+### Apply Configs
 
 Place configs for `~/.configs/` in `config/`.
 
-# Apply Configuration
+## Apply Configuration
 
 [Run the script](#initialization) again to apply the changes.
