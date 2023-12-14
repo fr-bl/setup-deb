@@ -9,7 +9,7 @@ Shell scripts to quickly setup packages and binaries for a non-root Debian user.
 Run the remote script to get started quickly and skip the next two steps.
 
 ```console
-source <(curl -sL https://dub.sh/GSqB8lf)
+source <(curl -sL dub.sh/GSqB8lf)
 ```
 
 ### Installation
