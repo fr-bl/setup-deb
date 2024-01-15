@@ -1,6 +1,6 @@
 # Setup Debian
 
-Shell scripts to quickly setup packages and binaries for a non-root Debian user.
+Shell scripts to quickly setup packages and binaries for a non-root Debian user. This is no longer needed as all desired apps are now part of the system image.
 
 ## Quick setup
 
