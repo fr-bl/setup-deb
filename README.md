@@ -1,13 +1,16 @@
 # Setup Debian
 
-Shell scripts to quickly setup packages and binaries for a non-root Debian user. This is no longer needed as all desired apps are now part of the system image.
+Shell scripts to quickly setup packages and binaries for a non-root Debian user. 
+
+> [!WARNING]
+> This is no longer maintained due to missing dependency-resolution. Check out [nix-los](https://github.com/fr-bl/nix-los) for the spiritual successor based on Nix.
 
 ## Quick setup
 
 Run the remote script to get started quickly.
 
 ```console
-source <(curl -sL dub.sh/GSqB8lf)
+source <(curl -sL git.new/setup-deb)
 ```
 
 ## Manual setup
